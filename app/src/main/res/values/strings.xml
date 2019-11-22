@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Demo1</string>
+    <string name="dang_nhap">Đăng Nhập</string>
+    <string name="dang_ky">Đăng Ký</string>
+    <string name="remember">Remember Passwork</string>
+    <string name="login">LOGIN</string>
+    <string name="passwork">Passwork</string>
+    <string name="moinhap"> Mời Bạn Nhập Tài Khoản</string>
+    <string name="moinhapmatkhau">Mời Nhập Mật Khẩu</string>
+    <string name="nhaplaimatkhau">Nhập Lại Mật Khẩu</string>
+    <string name="exit">Exit</string>
+    <string name="add">Thêm</string>
+    <string name="error_UserName">Không được để trống</string>
+    <string name="error_PassWord">Không đươc để trống</string>
+    <string name="error_Ki_Tu_Dac_Bite">Không chứa kí tự đặc biêt</string>
+    <string name="title_activity_navigatio">Navigatio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Wallpaper</string>
+    <string name="nav_header_subtitle">giangvsphu@wallpaper.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Đăng xuất</string>
+    <string name="art">ART wallpaper</string>
+    <string name="luffy">luffy wallpaper</string>
+    <string name="naruto">naruto wallpaper</string>
+    <string name="natura">Natura wallpaper</string>
+    <string name="ducati">Moto wallpaper</string>
+    <string name="gai">Girl wallpaper</string>
+    <string name="error_PassWord_It_Hon_6Ki_Tu">Vui lòng nhập lại ,mật khẩu phải có ít nhất 6 kí tự</string>
+    <string name="menu_home">New</string>
+    <string name="menu_gallery">Category</string>
+    <string name="menu_slideshow">Hit</string>
+    <string name="menu_tools">Favorite</string>
+    <string name="menu_share">Popular</string>
+    <string name="menu_send">Logout</string>
+
+
+</resources>

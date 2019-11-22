@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:onClick="ducati"
+        android:id="@+id/art"
+        android:layout_width="87dp"
+        android:layout_height="157dp"
+        android:src="@drawable/r1"
+        app:layout_constraintEnd_toStartOf="@+id/luffy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/luffy">
+
+    </ImageView>
+
+    <ImageView
+        android:onClick="girl"
+        android:id="@+id/girl"
+        android:layout_width="87dp"
+        android:layout_height="157dp"
+        android:src="@drawable/g2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/natura">
+
+    </ImageView>
+
+    <ImageView
+        android:onClick="naruto"
+        android:id="@+id/naruto"
+        android:layout_width="87dp"
+        android:layout_height="157dp"
+        android:src="@drawable/n1"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="@+id/art"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+    </ImageView>
+
+    <ImageView
+        android:onClick="luffy"
+        android:id="@+id/luffy"
+        android:layout_width="87dp"
+        android:layout_height="157dp"
+        android:src="@drawable/l1"
+        app:layout_constraintBottom_toTopOf="@+id/natura"
+        app:layout_constraintStart_toStartOf="@+id/natura"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <ImageView
+        android:onClick="natura"
+        android:id="@+id/natura"
+        android:layout_width="87dp"
+        android:layout_height="157dp"
+        android:src="@drawable/t1"
+        app:layout_constraintStart_toEndOf="@+id/naruto"
+        app:layout_constraintStart_toStartOf="@+id/girl"
+        app:layout_constraintTop_toTopOf="@+id/naruto">
+
+    </ImageView>
+
+    <ImageView
+        android:onClick="artt"
+
+        android:id="@+id/ducati"
+        android:layout_width="87dp"
+        android:layout_height="157dp"
+        android:src="@drawable/c1"
+        app:layout_constraintStart_toStartOf="@+id/art"
+        app:layout_constraintTop_toTopOf="@+id/girl">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="99dp"
+        android:layout_height="19dp"
+        android:text="@string/gai"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/art"
+        app:layout_constraintTop_toTopOf="@+id/art">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="100dp"
+        android:layout_height="19dp"
+        android:text="@string/art"
+        app:layout_constraintBottom_toTopOf="@+id/naruto"
+        app:layout_constraintStart_toStartOf="@+id/art"
+        app:layout_constraintTop_toBottomOf="@+id/art">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="104dp"
+        android:layout_height="21dp"
+        android:text="@string/ducati"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ducati">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="99dp"
+        android:layout_height="19dp"
+        android:text="@string/luffy"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="@+id/luffy"
+        app:layout_constraintTop_toTopOf="@+id/textView6">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="118dp"
+        android:layout_height="19dp"
+        android:text="@string/naruto"
+        app:layout_constraintBottom_toTopOf="@+id/ducati"
+        app:layout_constraintStart_toStartOf="@+id/naruto"
+        app:layout_constraintTop_toBottomOf="@+id/naruto"
+        app:layout_constraintVertical_bias="0.065">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="113dp"
+        android:layout_height="23dp"
+        android:text="@string/natura"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="@+id/textView5">
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
